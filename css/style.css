@@ -59,3 +59,33 @@ body{
         padding-top: 8%;
     }
 }
+
+.feature-container{
+
+}
+
+.feature-item{
+
+    margin-top: 5rem;
+    text-align: center;    
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.feature-icon{
+    font-size: 3rem;
+    color: #ff677ec5;
+    margin-bottom: 1rem;
+}
+
+.feature-title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.feature-detail{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: #8f8f8f;
+}
