@@ -28,7 +28,7 @@ body{
     margin: 0;
 }
 .header-btn{
-    margin: 5% 3% 0 0;
+    margin: 5% 3% 5% 0;
 }
 .container-fiuld{
     padding: 3% 8%;
@@ -47,7 +47,8 @@ body{
 
 .header-img{
     /* transform: rotate(25deg); */
-    margin: 1.3rem 0 0 20%;
+    margin-top: 1.3rem;
+    margin-left: 15%;
     width: 70%;
     height: auto;
 
@@ -62,7 +63,7 @@ body{
     }
     .feature-container{
         width: 100%;
-        position: absolute;
+        position: relative;
         background-color: white;
         z-index: 1;
     }
@@ -78,10 +79,9 @@ body{
 }
 
 
-
 .feature-item{
 
-    margin-top: 5rem;
+    margin: 3rem 0;
     text-align: center;    
     padding-left: 2rem;
     padding-right: 2rem;
@@ -103,4 +103,132 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
     color: #8f8f8f;
+}
+
+
+
+#testimonials{
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    padding: 3% 8%;
+    background-color:  #ff677ec5;
+    text-align: center;
+}
+
+.testimonials-text{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+    padding: 1rem;
+}
+.testimonials-imgt{
+    width: 10%;
+    border-radius: 100%;
+    margin: 1rem;
+}
+
+
+#press{
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    padding: 3% 8%;
+    background-color:  #ff677ec5;
+    text-align: center;
+}
+
+.press-item{
+    width: 15%;
+    margin: 2%;
+}
+
+#pricing{
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    padding: 3% 8%;
+    background-color: white;
+    text-align: center;
+}
+
+.mycard-title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+    
+}
+
+.mycard-text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+    color:  #8f8f8f;
+    margin: 0.4rem 0;
+}
+
+.mycard-header{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+
+    font-weight: 900;
+
+}
+
+.card-item{
+    margin: 2rem 0;
+}
+
+.price-title{
+    margin-top: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+}
+.price-text{
+    font-family: 'Montserrat', sans-serif;
+    color:  #8f8f8f;
+}
+
+.price-btn{
+    margin: 1rem;
+}
+
+
+#cta{
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    padding: 3% 8%;
+    background-color:  #ff677ec5;
+    text-align: center; 
+}
+
+.cta-title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: white; 
+}
+
+#footer{
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    padding: 5% 8%;
+    background-color: white;
+    text-align: center;    
+}
+
+.footer-icon{
+    font-size: 0.7rem;
+    margin: 0.7rem;
+}
+
+.footer-text{
+    font-family: 'Montserrat', sans-serif;
+    color:  #8f8f8f;
+    font-size: 0.7rem;
 }
